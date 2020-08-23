@@ -16,11 +16,7 @@ column_names = frame.corr().columns
 print(column_names)
 
 mean_frame = frame.mean()
-# print(mean_frame)
 
-
-# values = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
-#
 # #fill NAs
 frame = frame.fillna(value=mean_frame)
 print(frame)
